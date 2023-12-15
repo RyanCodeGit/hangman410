@@ -43,8 +43,7 @@ class Hangman:
             print(f'Good guess! {guess} is in the word.')
             for index, character in enumerate(self.word):
                 if character == guess:
-                    self.word_guessed.pop(index)
-                    self.word_guessed.insert(index, character)
+                    self.word_guessed[index] = guess
             self.num_letters -= 1
         else:
             self.num_lives -= 1
