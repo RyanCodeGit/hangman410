@@ -19,3 +19,5 @@ else:
     print("Oops! That input is invalid, please try again.")
 ```
 I've since learned that I could've used the string method `.isalpha()` to accomplish the same thing, oops. This is the method of checking used in milestone_3.py and later files.
+
+2. How to use the enumerate() built-in function. I had to iterate through a list, pop a specific index based on a condition, then insert a string into that specific index. This was so that I could include the typical "____" representing characters in a chosen word that have not yet been guessed in a pen-and-paper game of hangman.
