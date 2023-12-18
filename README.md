@@ -1,6 +1,8 @@
 # Hangman
 Hangman is a classic game in which a player thinks of a word and the other player tries to guess that word within a certain amount of attempts.
 
+In this implementation, the computer randomly chooses a word from a list of words, and you have to guess that word. 
+
 ## A Learning Experience
 This is an implementation of the Hangman game in which you will be able to play hangman against your computer.
 
@@ -35,6 +37,12 @@ for index, character in enumerate(self.word):
 #### Dependencies: Python 3.11.5
 It's very simple, so likely runs on any version of Python later than 3.0.
 Once you have Python 3.0+ installed, the Hangman-Game.py file contains everything you need. To play the game, open the file in your terminal.
+
+A default list of words is included in the file, and the default number of lives is 5. Docstrings to help the user are included in the file, and the word list and number of lives can be changed to suit the user.
+
+To change the number of lives, edit the `num_lives` value inside the `play_game()` function.
+
+To change the word list, pass a list of your choosing as an argument into the `play_game()` function call.
 
 ## License - Creative Commons Zero v1.0
 Creative Commons Legal Code
