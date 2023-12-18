@@ -6,6 +6,7 @@ class Hangman:
     This class is designed to allow a user to play hangman against their computer. \n
 
     Attributes:
+        self.word (str) = A word, randomly chosen from self.word_list.
         self.word_guessed (list) = A list containing underscores(_) to represent each letter of the chosen word.
         self.num_letters (int) = The number of unique letters in the word.
         self.num_lives (int) = The number of lives the user has remaining, default value 5.
