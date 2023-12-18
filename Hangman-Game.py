@@ -111,7 +111,7 @@ def play_game(word_list):
     else:
         print("Thank you for playing!")
 
-# Help files. Un-comment these lines if you would like to view help documentation.
+# Help files. Un-comment these lines and comment out the play_game(wl) call below if you would like to view help documentation.
 # help(play_game)
 # help(Hangman)
 
