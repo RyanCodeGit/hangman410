@@ -3,7 +3,13 @@ Hangman is a classic game in which a player thinks of a word and the other playe
 
 In this implementation, the computer randomly chooses a word from a list of words, and you have to guess that word. 
 
-## A Learning Experience
+## Table of Contents
+1. [Introduction](#a-learning-experience)
+2. [What I've Learned](#what-ive-learned)
+3. [Installation & Usage](#installation-and-usage)
+4. [License Information](#license---creative-commons-zero-v10)
+
+## Introduction: A Learning Experience
 This is an implementation of the Hangman game in which you will be able to play hangman against your computer.
 
 I will be testing my current knowledge of basic Python and Object Oriented Programming to create the game.
@@ -33,7 +39,7 @@ for index, character in enumerate(self.word):
 
 4. Docstrings are formatted differently in the terminal compared to the Interactive Window in VS Code. I was including unnecessary "\n" new lines as I was using the Interactive Window, which was doubling the amount of new lines when viewed in the terminal.
 
-## Installation and Usage
+## Installation & Usage
 #### Dependencies: Python 3.11.5
 It's very simple, so likely runs on any version of Python later than 3.0.
 Once you have Python 3.0+ installed, the Hangman-Game.py file contains everything you need. To play the game, open the file in your terminal.
